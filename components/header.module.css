@@ -1,0 +1,110 @@
+.container {
+position: absolute;
+width: 100%;
+height: 70px;
+left: 0px;
+top: 0px;
+
+/* Black */
+background: #1E1E1E;
+}
+
+.logoDescription {
+position: absolute;
+width: 140px;
+height: 36px;
+left: 244px;
+top: 17px;
+
+font-family: Dhurjati;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 80%;
+/* or 11px */
+display: flex;
+align-items: center;
+
+/* Frost White */
+color: #FAFAFA;
+}
+
+.serviceLink {
+  position: absolute;
+width: 56px;
+height: 24px;
+left: 1006px;
+top: 23px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 80%;
+/* or 11px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.03em;
+
+/* Frost White */
+color: #FAFAFA;
+}
+
+.contactLink {
+
+position: absolute;
+width: 54px;
+height: 24px;
+left: 1112px;
+top: 23px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 80%;
+/* or 11px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.03em;
+
+/* Frost White */
+color: #FAFAFA;
+}
+
+.quoteBtn {
+  position: absolute;
+  width: 108px;
+  height: 36px;
+  left: 1202px;
+  top: 17px;
+  
+  /* Frost White */
+  background: #FAFAFA;
+  border-radius: 2px;
+  }
+
+.quoteText {
+  position: absolute;
+width: 80px;
+height: 24px;
+left: 1216px;
+top: 23px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 80%;
+/* or 11px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.03em;
+
+/* Black */
+color: #1E1E1E;
+}
+
