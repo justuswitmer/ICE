@@ -120,3 +120,29 @@
     flex-direction: column;
   }
 }
+
+.expectContainerRotate {
+  position: relative;
+  width: 116%;
+  padding: 0 400px;
+  height: 784.34px;
+  left: -126px;
+  top: 70px;
+  background: #1E1E1E;
+  transform: rotate(-4.5deg);
+  color: #fafafa;
+}
+
+.expectDetailContain {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.expectDetail {
+  width: 250px;
+}
+
+.expectContainer {
+  transform: rotate(4.5deg);
+  margin-top: 100px;
+}

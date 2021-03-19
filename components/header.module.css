@@ -1,3 +1,8 @@
+/* @font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("static/assets/fonts/Montserrat-SemiBold.ttf");
+} */
+
 .container {
 position: absolute;
 width: 100%;
@@ -9,6 +14,14 @@ top: 0px;
 background: #1E1E1E;
 }
 
+.logo {
+position: absolute;
+width: 96px;
+height: 36px;
+left: 130px;
+top: 17px;
+}
+
 .logoDescription {
 position: absolute;
 width: 140px;
@@ -16,7 +29,7 @@ height: 36px;
 left: 244px;
 top: 17px;
 
-font-family: Dhurjati;
+font-family: 'Dhurjati', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -30,13 +43,13 @@ color: #FAFAFA;
 }
 
 .serviceLink {
-  position: absolute;
+font-family: 'Open Sans', sans-serif;
+position: absolute;
 width: 56px;
 height: 24px;
 left: 1006px;
 top: 23px;
 
-font-family: Open Sans;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
@@ -59,7 +72,7 @@ height: 24px;
 left: 1112px;
 top: 23px;
 
-font-family: Open Sans;
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
@@ -93,7 +106,7 @@ height: 24px;
 left: 1216px;
 top: 23px;
 
-font-family: Open Sans;
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
