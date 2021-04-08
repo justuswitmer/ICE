@@ -7,6 +7,7 @@ import Footer from './Footer/Footer';
 import Home from './Home/Home';
 import Services from './Services/Services';
 import Quote from './Quote/Quote';
+import Login from './Login/Login';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path={'/'} component={Home} />
         <Route exact path={'/services'} component={Services} />
         <Route exact path={'/quote'} component={Quote} />
+        <Route exact path={'/login'} component={Login} />
         <Footer />
       </div>
     </Router>

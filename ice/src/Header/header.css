@@ -1,0 +1,83 @@
+/* sourced font from https://www.dafont.com/electrical.font */
+@font-face {
+  font-family: "Electrical";
+  src: url("../assets/electrical.ttf");
+}
+
+/* sourced font from https://fonts.google.com/specimen/Dhurjati */
+@font-face {
+  font-family: "Dhurjati";
+  src: url("../assets/Dhurjati-Regular.ttf");
+}
+
+/* sourced from https://fonts.google.com/specimen/Open+Sans */
+@font-face {
+  font-family: "OpenSans";
+  src: url("../assets/OpenSans-Regular.ttf");
+}
+
+.header {
+  display: inline-flex;
+  width: 100%;
+  height: 70px;
+  
+}
+
+.header__a {
+  display: inline-flex;
+  position: absolute;
+  left: 0;
+  margin-left: 130px;
+  cursor: pointer;
+}
+
+.header__b {
+  display: inline-flex;
+  position: absolute;
+  right: 0;
+  margin-right: 130px;
+  gap: 20px;
+  align-items: center;
+  height: 70px;
+}
+
+.header__b > p{
+font-family: OpenSans;
+font-weight: 600;
+font-size: 14px;
+margin: 0;
+cursor: pointer;
+}
+
+.header__a__a {
+  margin-right: 18px;
+}
+
+.header__a__a > h2 {
+  font-family: Electrical;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0;
+  line-height: 70px;
+  letter-spacing: 0.2em;
+}
+
+.header__a__b {
+  text-align: left;
+  position: relative;
+  top: 24px;
+  height: 100%;
+  width: 140px;
+}
+
+.header__a__b > p {
+  font-family: Dhurjati;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 80%;
+}
