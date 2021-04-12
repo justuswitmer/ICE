@@ -13,35 +13,34 @@
 /* sourced from https://fonts.google.com/specimen/Open+Sans */
 @font-face {
   font-family: "OpenSans";
-  src: url("../assets/OpenSans-Regular.ttf");
+  src: url("../assets/OpenSans/OpenSans-Regular.ttf");
 }
 
 .header {
   display: inline-flex;
   width: 100%;
   height: 70px;
-  
+  position: sticky;
+  top: 0;
 }
 
-.header__a {
+.header__b567 {
   display: inline-flex;
   position: absolute;
   left: 0;
-  margin-left: 130px;
   cursor: pointer;
 }
 
-.header__b {
+.header__b284 {
   display: inline-flex;
   position: absolute;
   right: 0;
-  margin-right: 130px;
   gap: 20px;
   align-items: center;
   height: 70px;
 }
 
-.header__b > p{
+.header__b284 > p{
 font-family: OpenSans;
 font-weight: 600;
 font-size: 14px;
@@ -49,11 +48,11 @@ margin: 0;
 cursor: pointer;
 }
 
-.header__a__a {
+.header__b__b269 {
   margin-right: 18px;
 }
 
-.header__a__a > h2 {
+.header__b__b269 > h2 {
   font-family: Electrical;
   font-style: normal;
   font-weight: normal;
@@ -63,7 +62,7 @@ cursor: pointer;
   letter-spacing: 0.2em;
 }
 
-.header__a__b {
+.header__b__b431 {
   text-align: left;
   position: relative;
   top: 24px;
@@ -71,7 +70,7 @@ cursor: pointer;
   width: 140px;
 }
 
-.header__a__b > p {
+.header__b__b431 > p {
   font-family: Dhurjati;
   margin: 0;
   align-items: center;
