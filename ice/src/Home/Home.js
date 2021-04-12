@@ -1,5 +1,7 @@
 import './Home.css';
 import rightArrow from '../assets/images/rightArrow.png';
+import Excavating from '../assets/images/Excavating.png';
+import Snowblowing from '../assets/images/Snowblower.png';
 
 function Home() {
 
@@ -13,15 +15,16 @@ function Home() {
         <h2>{title}</h2>
         <p>{description}</p>
         <div className='home__b__b516'>
-          <p className='home__b__b--e900'>{quoteDescription}</p>
+          <p className='home__b__b--i900'>{quoteDescription}</p>
           <div className='home__b__b__b912'>
-            <input className='home__b__b__b--e582' value='Enter your zipcode' />
-            <button className='home__b__b__b--e368'>Get my Quote <img className='home__b__b__b--e--e440' src={rightArrow} alt='' /></button>
+            <input className='home__b__b__b--i582' value='Enter your zipcode' />
+            <button className='home__b__b__b--i368'>Get my Quote <img className='home__b__b__b--i--i440' src={rightArrow} alt='' /></button>
           </div>
         </div>
       </div>
       <div className='home__b383'>
-        Snow removal & Excavating
+        <img src={Snowblowing} alt='' width='30%' />
+        <img src={Excavating} alt='' width='30%' />
       </div>
       <div className='home__b226'>
         Expectations

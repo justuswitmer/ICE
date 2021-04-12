@@ -22,11 +22,19 @@
   height: 70px;
   position: sticky;
   top: 0;
+  margin-left: -130px;
+  padding: 0 130px;
+  background-color: #FAFAFA;
+}
+
+.header.active {
+  background-color: #1E1E1E;
+  color: #FAFAFA;
 }
 
 .header__b567 {
   display: inline-flex;
-  position: absolute;
+  position: relative;
   left: 0;
   cursor: pointer;
 }
@@ -34,7 +42,7 @@
 .header__b284 {
   display: inline-flex;
   position: absolute;
-  right: 0;
+  right: 130px;
   gap: 20px;
   align-items: center;
   height: 70px;
