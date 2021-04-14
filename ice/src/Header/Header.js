@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-import './header.css';
 
 function Header(props) {
 
@@ -16,8 +15,13 @@ function Header(props) {
   return (
     <div className={header ? 'header active' : 'header'}>
       <div className='header__b567' onClick={() => props.history.push('/')}>
-        <div className='header__b__b269'><h2>ICE</h2></div>
-        <div className='header__b__b431'><p>Iserman</p> <p>Contracting & Excavating</p></div>
+        <div className='header__b__b269'>
+          <h2 className='header__b__b--i681'>ICE</h2>
+        </div>
+        <div className='header__b__b431'>
+          <p className='header__b__b--i633'>Iserman</p>
+          <p className='header__b__b--i633'>Contracting & Excavating</p>
+        </div>
       </div>
       <div className='header__b284'>
         <p onClick={() => props.history.push('/services')}>Services</p>

@@ -1,0 +1,61 @@
+
+// *************** Helpers *************** //
+// such as variables, sass functions, sass mixins, etc.
+@import "./helpers/functions";
+@import "./helpers//mixins";
+@import "./helpers/variables";
+
+// *************** Layout *************** //
+// such as grid system, header, footer, etc.
+@import "./layout/grid";
+@import "./layout/header";
+
+// *************** Pages *************** //
+// such as specific page styles
+@import "./pages/home";
+
+// *************** Components *************** //
+// such as buttons, carousel, cover, etc.
+
+// *************** Global *************** //
+// such as fonts, global formatting, etc.
+
+/* sourced from https://fonts.google.com/specimen/Open+Sans */
+@font-face {
+  font-family: "OpenSans";
+  src: url("../a_assets/fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+/* sourced font from https://www.dafont.com/electrical.font */
+@font-face {
+  font-family: "Electrical";
+  src: url("../a_assets/fonts/electrical.ttf");
+}
+
+/* sourced font from https://fonts.google.com/specimen/Dhurjati */
+@font-face {
+  font-family: "Dhurjati";
+  src: url("../a_assets/fonts/Dhurjati-Regular.ttf");
+}
+
+/* sourced from https://fonts.google.com/specimen/Open+Sans */
+@font-face {
+  font-family: "OpenSans";
+  src: url("../a_assets/fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+/* sourced from https://fonts.google.com/specimen/Open+Sans */
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../a_assets/fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+img {
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  font-family: OpenSans;
+  padding: 0 130px;
+}

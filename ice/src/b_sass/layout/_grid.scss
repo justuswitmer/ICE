@@ -1,0 +1,43 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(1,1fr [col-start]);
+  grid-template-rows: 70px auto 917px;
+  grid-template-areas:
+      "header"
+      "body"
+      "footer";
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .home {
+    display: grid;
+    grid-area: body;
+    grid-template-columns: repeat(1,1fr [col-start]);
+    grid-template-rows: 604px 350px 972px 571px;
+    grid-template-areas:
+        "intro"
+        "paths"
+        "expectations"
+        "reviews";
+    .home__b491 {
+      grid-area: intro;
+    }
+
+    .home__b383 {
+      grid-area: paths;
+    }
+
+    .home__b226 {
+      grid-area: expectations;
+    }
+
+    .home_b808 {
+      grid-area: reviews;
+    }
+  }
+
+
+}
+

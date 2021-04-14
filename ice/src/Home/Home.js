@@ -1,7 +1,6 @@
-import './Home.css';
-import rightArrow from '../assets/images/rightArrow.png';
-import Excavating from '../assets/images/Excavating.png';
-import Snowblowing from '../assets/images/Snowblower.png';
+import rightArrow from '../a_assets/images/rightArrow.png';
+import Excavating from '../a_assets/images/Excavating.png';
+import Snowblowing from '../a_assets/images/Snowblower.png';
 
 function Home() {
 
@@ -23,8 +22,14 @@ function Home() {
         </div>
       </div>
       <div className='home__b383'>
-        <img src={Snowblowing} alt='' width='30%' />
-        <img src={Excavating} alt='' width='30%' />
+        <div>
+          <img src={Snowblowing} alt='' />
+          <p>Snow Removal</p>
+        </div>
+        <div>
+          <img src={Excavating} alt='' />
+          <p>Excavation</p>
+        </div>
       </div>
       <div className='home__b226'>
         Expectations
