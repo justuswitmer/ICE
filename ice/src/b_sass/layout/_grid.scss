@@ -15,7 +15,7 @@
     display: grid;
     grid-area: body;
     grid-template-columns: repeat(1,1fr [col-start]);
-    grid-template-rows: 604px 350px 972px 571px;
+    grid-template-rows: 604px auto 972px 571px;
     grid-template-areas:
         "intro"
         "paths"

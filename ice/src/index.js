@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore, applyMiddleware } from "redux";
+import { createStore, combineReducers, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
 import createSagaMiddleware from "redux-saga";
 import logger from "redux-logger";
@@ -15,7 +15,20 @@ const middlewareList =
     ? [sagaMiddleware, logger]
     : [sagaMiddleware];
 
+
+const getCustomer = (state = {}, action) => {
+  if (action.type === 'SET_CUSTOMER') {
+    console.log(action.payload);
+
+    return action.payload;
+  }
+  return state;
+}
+
 const store = createStore(
+  combineReducers({
+    getCustomer,
+  }),
   applyMiddleware(...middlewareList)
 );
 
