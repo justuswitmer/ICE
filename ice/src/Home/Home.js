@@ -9,6 +9,7 @@ import Snowblowing from '../a_assets/images/Snowblower.png';
 function Home() {
 
   const dispatch = useDispatch();
+  const token = process.env.ZUPERPRO;
 
   let title = "Your heavy lifting ends here!";
   let description = "Are you looking for industry leading contractors that are reliable, quality, and fair priced? Well I guess we couldn't hide forever. See what ICE Contractors can do for your projects with a 2 minute quote!";
@@ -31,7 +32,7 @@ function Home() {
       method: 'POST',
       url: 'https://zuperpro.com/api/customers',
       data: customer,
-      headers: { "Authorization": "Bearer 276cb49134264bee53ff14988f5981ca" }
+      headers: { "Authorization": `Bearer ${token}` }
     });
   };
 
