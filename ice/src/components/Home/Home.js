@@ -25,7 +25,6 @@ function Home() {
   let description = "Are you looking for industry leading contractors that are reliable, quality, and fair priced? Well I guess we couldn't hide forever. See what ICE Contractors can do for your projects with a 2 minute quote!";
   let quoteDescription = "Get a quote in under 2 minutes for your excavating, contracting and snow removal needs. Enter your zip code.";
 
-
   let customer = {
     customer: {
       customer_first_name: "Gene",
