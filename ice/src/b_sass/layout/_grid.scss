@@ -3,9 +3,9 @@
   grid-template-columns: repeat(1,1fr [col-start]);
   grid-template-rows: 70px auto 917px;
   grid-template-areas:
-      "header"
-      "body"
-      "footer";
+    "header"
+    "body"
+    "footer";
   
   .header {
     grid-area: header;
@@ -15,7 +15,7 @@
     display: grid;
     grid-area: body;
     grid-template-columns: repeat(1,1fr [col-start]);
-    grid-template-rows: 604px auto 972px 571px;
+    grid-template-rows: auto auto auto 571px;
     grid-template-areas:
         "intro"
         "paths"
@@ -37,7 +37,31 @@
       grid-area: reviews;
     }
   }
+  
+  .footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: repeat(1,1fr [col-start]);
+    grid-template-rows: 259px auto auto auto;
+    grid-template-areas:
+      "footer_logo"
+      "footer_body"
+      "footer_truck"
+      "footer_copy";
 
+      .footer__b780 {
+        grid-area: footer_logo;
+      }
+      .footer__b538 {
+        grid-area: footer_body;
+      }
+      .footer__b803 {
+        grid-area: footer_truck;
+      }
+      .footer__b798 {
+        grid-area: footer_copy;
+      }
+  }
 
 }
 

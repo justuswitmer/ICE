@@ -9,6 +9,7 @@
 // such as grid system, header, footer, etc.
 @import "./layout/grid";
 @import "./layout/header";
+@import "./layout/footer";
 
 // *************** Pages *************** //
 // such as specific page styles
@@ -48,6 +49,10 @@
 @font-face {
   font-family: "OpenSansBold";
   src: url("../a_assets/fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+body {
+  margin: -8px;
 }
 
 img {

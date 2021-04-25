@@ -1,12 +1,12 @@
 import { Route, HashRouter as Router } from 'react-router-dom';
 
 import './b_sass/main.scss';
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
-import Home from './Home/Home';
-import Services from './Services/Services';
-import Quote from './Quote/Quote';
-import Login from './Login/Login';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import Services from './components/Services/Services';
+import Quote from './components/Quote/Quote';
+import Login from './components/Login/Login';
 
 function App() {
   return (

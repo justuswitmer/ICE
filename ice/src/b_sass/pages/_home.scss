@@ -2,7 +2,7 @@
 
   .home__b491 {
 
-    .home__b491 > h2{
+    .home__b--i974{
       width: 680px;
       height: 54px;
       font-family: OpenSansBold;
@@ -15,7 +15,7 @@
       letter-spacing: -0.03em;
     }
 
-    .home__b491 > :nth-child(2) {
+    .home__b--i230 {
       width: 700px;
       height: 77px;
       font-style: normal;
@@ -33,10 +33,12 @@
       position: relative;
       left: 50%;
       transform: translate(-50%);
-      z-index: -1;
+      margin-top: 70px;
+      margin-bottom: 195px;
 
       .home__b__b--i900 {
         text-align: left;
+        margin-bottom: 28px;
       }
 
       .home__b__b__b912 {
@@ -80,11 +82,13 @@
       }
     }
   }
+
 $width: 62.5%;
 
   .home__b383 {
     display: inline-block;
     position: relative;
+    margin-bottom: -214px;
     left: 50%;
     transform: translate(-50%);
     max-width: 1192px;
@@ -95,6 +99,7 @@ $width: 62.5%;
       height: $width / 2.0971687125;
       max-width: 736px;
       border-radius: 4px;
+      z-index: -1;
 
       .home__b__b--i416 {
         position: relative;
@@ -129,6 +134,7 @@ $width: 62.5%;
       top: -29.8%;
       left: 37.4%;
       border-radius: 4px;
+      z-index: -1;
 
       .home__b__b--i785 {
         position: relative;
@@ -157,11 +163,163 @@ $width: 62.5%;
   }
 
   .home__b226 {
-    background-color: green;
+
+    .home__b__b512 {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 41px;
+      /* identical to box height */
+      letter-spacing: -0.03em;
+      margin: 0 0 50px 0;
+    }
+
+    .home__b__b444 {
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px 80px;
+
+      .home__b__b__b737 {
+        width: 340px;
+
+        .home__b__b__b--i436 {
+          width: 100px;
+          position: relative;
+          left: -120px;
+        }
+
+        .home__b__b__b__b991 {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 33px;
+          /* identical to box height */
+          letter-spacing: -0.03em;
+          text-align: left;
+        }
+
+        .home__b__b__b__b419 {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 25px;
+          letter-spacing: -0.03em;
+          text-align: left;
+        }
+      }
+    }
+
+    .home__b__b405 {
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 153px;
+      margin-bottom: 118px;
+
+      .home__b__b__b664 {
+        height: 150px;
+
+
+        .home__b__b__b--i311 {
+          width: 150px;
+          position: relative;
+          left: -228.5px;
+          top: 0px;
+        }
+
+        .home__b__b__b__b553 {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 33px;
+          /* identical to box height */
+          letter-spacing: -0.03em;
+          text-align: left;
+          position: relative;
+          top: -160px;
+          left: 170px;
+        }
+
+        .home__b__b__b__b404 {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 30px;
+          letter-spacing: -0.03em;
+          width: 607px;
+          text-align: left;
+          position: relative;
+          top: -180px;
+          left: 170px;
+        }
+      }
+    }
+
+
   }
 
   .home_b808 {
-    background-color: orange;
+    background-color: #1E1E1E;
+    color: #FAFAFA;
+    margin: 0 -130px;
+    padding: 0 130px;
+
+    .home_b__b547 {
+      margin: 130px 0 20px 0;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 41px;
+      letter-spacing: -0.03em;
+    }
+
+    .home_b__b396 {
+      margin-bottom: 123px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 35px;
+      letter-spacing: -0.03em;
+    }
+
+    .home_b__b425 {
+      display: flex;
+      justify-content: space-evenly;
+
+        .home_b__b__b855 {
+        text-align: left;
+
+        .home_b__b__b__b972 {
+          background-color: transparent;
+
+          .home_b__b__b__b--i671 {
+            width: 30px;
+          }
+        }
+
+        .home_b__b__b__b663 {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 27px;
+          letter-spacing: -0.03em;
+        }
+
+        .home_b__b__b__b184 {
+          background-color: transparent;
+
+          .home_b__b__b__b--i196 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: -0.03em;
+            text-decoration-line: underline;
+            color: #FAFAFA;
+          }
+        }
+      }           
+    }
   }
 }
 
